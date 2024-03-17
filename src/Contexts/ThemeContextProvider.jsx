@@ -7,6 +7,8 @@ import { useState } from 'react';
 
 export const ThemeContext = createContext()
 
+const localStorage = window.localStorage
+
 const ThemeContextProvider = ({ children }) => {
 
     // NOTE: Retrieving Theme Color Mode From LocalStorage
