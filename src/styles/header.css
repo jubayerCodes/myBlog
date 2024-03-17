@@ -1,0 +1,11 @@
+.header {
+  @apply border-b;
+}
+
+.header-li a {
+  @apply duration-300 capitalize hover:text-[var(--text-color-light)] hover:border-b hover:border-b-[var(--text-color-light)] text-sm
+}
+
+.active-link{
+    @apply text-[var(--text-color-light)] border-b border-b-[var(--text-color-light)]
+}
