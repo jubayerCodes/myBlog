@@ -7,13 +7,11 @@ import { useState } from 'react';
 
 export const ThemeContext = createContext()
 
-const localStorage = window.localStorage
-
 const ThemeContextProvider = ({ children }) => {
 
     // NOTE: Retrieving Theme Color Mode From LocalStorage
 
-    const storedThemeMode = JSON.parse(localStorage.getItem('themeColorMode'))
+    const storedThemeMode = JSON.parse(window.localStorage.getItem('themeColorMode'))
 
     // NOTE: Retrieving Default Theme Color Mode From Computer
 
@@ -37,7 +35,7 @@ const ThemeContextProvider = ({ children }) => {
     const updateThemeMode = (mode) => {
         setMode(mode)
 
-        localStorage.setItem('themeColorMode', JSON.stringify(mode))
+        window.localStorage.setItem('themeColorMode', JSON.stringify(mode))
     }
 
     const contextValue = { mode, updateThemeMode }
