@@ -4,7 +4,7 @@ const usePreferredColorMode = () => {
   // NOTE: Retrieving Theme Color Mode From LocalStorage
 
   const storedThemeMode = JSON.parse(
-    window.localStorage.getItem("themeColorMode")
+    localStorage.getItem("themeColorMode")
   );
 
   // NOTE: Retrieving Default Theme Color Mode From Computer

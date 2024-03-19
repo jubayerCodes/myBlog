@@ -20,7 +20,7 @@ const ThemeContextProvider = ({ children }) => {
   const updateThemeMode = (mode) => {
     setMode(mode);
 
-    window.localStorage.setItem("themeColorMode", JSON.stringify(mode));
+    localStorage.setItem("themeColorMode", JSON.stringify(mode));
   };
 
   const contextValue = { mode, updateThemeMode };
