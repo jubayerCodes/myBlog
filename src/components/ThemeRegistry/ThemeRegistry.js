@@ -3,8 +3,8 @@ import * as React from "react";
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import NextAppDirEmotionCacheProvider from "./EmotionCache";
-import { ThemeContext } from "@/Contexts/ThemeContextProvider";
 import theme from "./theme";
+import { ThemeContext } from "@/Contexts/ThemeContextProvider";
 
 export default function ThemeRegistry({ children }) {
   const { mode } = React.useContext(ThemeContext);

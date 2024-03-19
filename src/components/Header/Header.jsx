@@ -10,11 +10,10 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { Container, Link, List, ListItem } from '@mui/material';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
-import { ThemeContext } from '@/Contexts/ThemeContextProvider';
 import Image from 'next/image';
 import Logo from '@/assets/logo/networker-logo.png'
 import darkLogo from '@/assets/logo/networker-logo-dark.png'
-import theme from '../ThemeRegistry/theme';
+import { ThemeContext } from '@/Contexts/ThemeContextProvider';
 
 export default function Header() {
 
