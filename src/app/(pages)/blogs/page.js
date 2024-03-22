@@ -7,13 +7,11 @@ const BlogsPage = () => {
     <main>
       <Container>
         <Box>
-          <Card className="mt-20">
-            <Typography variant="h1" fontWeight={"900"}>
-              Blogs
-            </Typography>
+          <Typography variant="h1" fontWeight={"900"}>
+            Blogs
+          </Typography>
 
-            <Posts />
-          </Card>
+          <Posts />
         </Box>
       </Container>
     </main>

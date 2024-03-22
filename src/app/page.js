@@ -6,12 +6,10 @@ export default function Home() {
     <main>
       <Container>
         <Box>
-          <Card className="mt-20">
-            <Typography variant="h1" fontWeight={"900"}>
-              Hello World ~
-            </Typography>
-            <Posts />
-          </Card>
+          <Typography variant="h1" fontWeight={"900"}>
+            Hello World ~
+          </Typography>
+          <Posts />
         </Box>
       </Container>
     </main>
