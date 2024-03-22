@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "The Adventure Begins",
+      "description": "Embark on a journey of discovery and excitement as you traverse through uncharted lands, encounter mystical creatures, and unravel the mysteries of the unknown. Join us in this epic quest where every step brings new challenges and every moment is filled with the promise of adventure.",
+      "likes": 102
+    },
+    {
+      "id": 2,
+      "title": "Into the Wild",
+      "description": "Venture into the untamed wilderness where nature reigns supreme. Hear the call of the wild as you explore dense forests, rugged mountains, and vast plains teeming with life. Experience the thrill of survival as you navigate through this unforgiving terrain.",
+      "likes": 76
+    },
+    {
+      "id": 3,
+      "title": "A Tale of Two Worlds",
+      "description": "Discover a world where reality and fantasy collide in a mesmerizing blend of magic and mystery. Follow the journey of unlikely heroes as they navigate through realms both familiar and strange, facing challenges that test their courage and resolve.",
+      "likes": 93
+    },
+    {
+      "id": 4,
+      "title": "In the Shadow of Giants",
+      "description": "Stand in awe beneath towering giants that have watched over the land for eons. Explore ancient ruins and forgotten civilizations as you uncover the secrets of a bygone era. Let the whispers of history guide you on a journey through time.",
+      "likes": 120
+    },
+    {
+      "id": 5,
+      "title": "Echoes of Eternity",
+      "description": "Listen closely and you may hear the echoes of eternity reverberating through the cosmos. Journey to the far reaches of the universe where time stretches infinitely and space knows no bounds. Embark on a quest to unravel the mysteries of existence itself.",
+      "likes": 88
+    },
+    {
+      "id": 6,
+      "title": "Underneath the Stars",
+      "description": "Beneath the cloak of night, a world of wonders awaits. Gaze up at the twinkling stars as you wander through moonlit forests and shimmering lakes. Lose yourself in the beauty of the night sky and let your imagination take flight.",
+      "likes": 64
+    },
+    {
+      "id": 7,
+      "title": "Whispers in the Wind",
+      "description": "Listen closely to the whispers in the wind as they carry secrets from distant lands. Follow their gentle guidance as you journey through ever-changing landscapes, where every gust holds a story waiting to be told. Let the wind be your compass on this odyssey of discovery.",
+      "likes": 82
+    },
+    {
+      "id": 8,
+      "title": "Beyond the Horizon",
+      "description": "Set sail on a voyage to the ends of the earth and beyond. Navigate uncharted waters and explore distant shores as you chase the elusive horizon. Embrace the unknown and let curiosity be your guide on this epic journey of exploration.",
+      "likes": 105
+    },
+    {
+      "id": 9,
+      "title": "Legends of Lore",
+      "description": "Enter a world steeped in legend and myth, where heroes and villains clash in epic battles of good versus evil. Journey through ancient lands filled with magic and wonder as you uncover the truth behind age-old tales. Become part of the legend and write your own story.",
+      "likes": 97
+    },
+    {
+      "id": 10,
+      "title": "Dreams of Tomorrow",
+      "description": "Close your eyes and dream of a world yet to be, where possibilities are endless and imagination knows no bounds. Explore the realm of dreams where reality bends and shapes to your will. Let your dreams take flight and carry you to new horizons.",
+      "likes": 70
+    }
+  ]
+}

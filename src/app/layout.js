@@ -13,12 +13,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
       <body>
-        <ThemeContextProvider>
-          <ThemeRegistry options={{ key: "mui" }}>
-            <Header />
-            {children}
-          </ThemeRegistry>
-        </ThemeContextProvider>
+        {/* <ThemeContextProvider> */}
+        <ThemeRegistry options={{ key: "mui" }}>
+          <Header />
+          {children}
+        </ThemeRegistry>
+        {/* </ThemeContextProvider> */}
       </body>
     </html>
   );

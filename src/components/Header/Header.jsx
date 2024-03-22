@@ -19,7 +19,7 @@ export default function Header() {
 
     const [navItems, setNavItems] = React.useState([])
 
-    const { mode, updateThemeMode } = React.useContext(ThemeContext)
+    // const { mode, updateThemeMode } = React.useContext(ThemeContext)
 
     React.useEffect(() => {
         fetch('/api/categories')
@@ -43,9 +43,9 @@ export default function Header() {
                                 <MenuIcon className='hover:text-[#818181] duration-300' />
                             </IconButton>
 
-                            <Link href={'/'}>
+                            {/* <Link href={'/'}>
                                 <Image src={mode === 'light' ? Logo.src : darkLogo.src} alt='' width={140} height={25}></Image>
-                            </Link>
+                            </Link> */}
 
                             <List disablePadding sx={{ display: 'flex', gap: '30px' }}>
                                 {navItems.map((item, idx) => (
@@ -59,12 +59,12 @@ export default function Header() {
                         </Box>
 
 
-                        <Box display={'flex'} alignItems={'center'}>
+                        {/* <Box display={'flex'} alignItems={'center'}>
                             <IconButton sx={{ ml: 1 }} color="inherit" onClick={() => updateThemeMode(mode === 'light' ? 'dark' : 'light')}>
                                 {mode === 'light' ? <Brightness4Icon /> : <Brightness7Icon />}
                             </IconButton>
                             <Button color="inherit">Login</Button>
-                        </Box>
+                        </Box> */}
                     </Toolbar>
                 </Container>
             </AppBar>
